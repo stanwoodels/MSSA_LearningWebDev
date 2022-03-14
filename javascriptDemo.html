@@ -9,35 +9,77 @@
         <meta name="author" content="Tristan Stickels">
 	</head>
 	<body id="global">
-                <table style="border-width: 1px; border-color: black; padding: 5px; border-style: solid;">
+                <table class="simpleTable">
                         <thead>
-                                <tr>
-                                        <th>Concept</th>
-                                        <th>Example</th>
-                                </tr>
+                            <tr>
+                                <th>Concept</th>
+                                <th>Example</th>
+                            </tr>
                         </thead>
-                        <tr>
+                        <tbody>
+                            <tr>
                                 <td>Strings</td>
                                 <td>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Operation
+                                                </th>
+                                                <th>
+                                                    Example
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Substring</td>
+                                                <td>
+                                                    Code:
+                                                    <pre>
+                                                    let str = "Apple, Banana, Kiwi";
+                                                    document.getElementById("demoSubstring").innerHTML = str.substring(7,13);   
+                                                    </pre>     
+                                                    Result:
+                                                    <span id="demoSubstring"></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Arrays</td>
+                                <td>
                                         <table>
-                                                <tr>
-                                                        <td>Substring</td>
-                                                </tr>
-                                                <tr>
-                                                        <td></td>
-                                                </tr>
+                                                <thead>
+                                                        <th>Operation</th>
+                                                        <th>Example</th>
+                                                </thead>
+                                                <tbody>
+                                                        <tr>
+                                                                <td>Length</td>
+                                                                <td>The length of the array [1, 2, 3, 4, 5] is <span id="someArray"></span>span></td>
+                                                        </tr>
+                                                        <tr>
+                                                                <td></td>
+                                                                <td></td>
+                                                        </tr>
+                                                </tbody>
                                         </table>
                                 </td>
-                        </tr>
-                        <tr>
-                                <td>Arrays</td>
-                                <td></td>
-                        </tr>
-                        <tr>
+                            </tr>
+                            <tr>
                                 <td>Sets and Maps</td>
-                                <td></td>
-                        </tr>
-                </table>
+                                <td>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
         <script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

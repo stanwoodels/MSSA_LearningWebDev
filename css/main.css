@@ -8,6 +8,20 @@
 	color:black;
 }
 
+.simpletable {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+tr {
+
+}
+
+td {
+	border: 1px solid black;
+    padding: 5px;
+}
+
 @keyframes party-text {
 	  0% {
 		color: #ff0000;
